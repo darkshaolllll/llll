@@ -1,0 +1,5 @@
+CREATE TABLE `cache_table` (
+    `cache_key` varchar(250) NOT NULL PRIMARY KEY,
+    `value` longtext NOT NULL,
+    `expires` datetime(6) NOT NULL
+);
